@@ -1,0 +1,32 @@
+{
+  "name": "react-js-sandbox",
+  "version": "1.0.0",
+  "description": "Stepwise demonstrating how to add different js technologies and the benefits they bring",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --hot --progress --colors --host 0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sv12re/react-js-sandbox.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Svein-Tore Landsverk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sv12re/react-js-sandbox/issues"
+  },
+  "homepage": "https://github.com/sv12re/react-js-sandbox#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  }
+}
